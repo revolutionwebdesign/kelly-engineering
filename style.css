@@ -1,0 +1,165 @@
+/* 
+ Theme Name:     Kelly Engineering
+ Author:         Revolution Web Design
+ Author URI:     http://www.revolutionweb.com.au
+ Template:       Divi
+ Version:        1.0 
+*/ 
+
+#post-1878, #post-1919{width:80%;margin:auto;margin-top:3%}
+
+#top-menu li{padding-right:15px !important}
+
+#top-header #et-info{float:right;padding-right:20px}
+
+body, html{overflow-x:hidden !important}
+
+.mobile-only{display:none !important}
+
+#top-header #et-info{float: right;padding-right: 20px;}
+
+.et_vertical_nav #page-container #main-header {position: absolute;}
+
+.et_pb_inner_shadow {-webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow:none !important}
+
+#selector2, #tryagain, #machine-size, #machinetypeheader{display:none}
+
+.et_pb_slider .et_pb_container {z-index: 30}
+.cover-active, .cover-active #page-container, .cover-active #et-main-area, .cover-active #main-content, .cover-active article.page, .cover-active .entry-content, .cover-active #cover-section .et_pb_slider, .cover-active #cover-section .et_pb_slides, .cover-active #cover-section .et_pb_slide, .cover-active #cover-section .et_pb_container {min-height: 100%;height: 100%;padding: 0!important;}
+
+#SideImage1{margin-left:10%}
+#SideImage2{float:right;margin-right:10%}
+
+LocationMargin{margin-left:8%}
+
+.cover-active.et_boxed_layout #page-container { position: initial!important;}
+.cover-active #cover-section .et_pb_container { display: table; }
+.cover-active #cover-section .et_pb_slide_description {padding: 0; display: table-cell; vertical-align: middle; }
+.cover-active #cover-section .et-pb-controllers {bottom: 100px; }
+.cover-active #main-header{position: fixed;background:rgba(0, 0, 0, 0.6);}
+.cover-active #main-header .nav li ul{background:rgba(0, 0, 0, 0.6)}
+#main-header.cover-header { position: fixed;bottom: auto!important}
+.cover-active #main-header .sub-menu, .cover-active #main-header #mobile_menu {top: auto;}
+.cover-active #main-header .sub-menu{background:rgba(0, 0, 0, 0.6)}
+.cover-active #main-header.cover-header .sub-menu, .cover-active #main-header.cover-header #mobile_menu {bottom: auto;}
+.cover-active #main-header.cover-header .sub-menu {top: 52px;}
+h1, h2, h3, h4, h5, h6 {color: #6cb33f;}
+.et_pb_main_blurb_image img{width:100% !important}
+
+.sales-number{font-size:21px;color:#6cb33f}
+
+.et_pb_promo_button{position:absolute;bottom:0;margin-left:6%}
+
+.ContactInfo h3{min-height:96px}
+.FLMargin{margin-bottom:-1px}
+.WidthWrap{width:90%; margin:0 auto}
+.WidthWrapSmall{/*width:60%;*/ margin:0 auto}
+.FooterLinks a:hover{color:#6cb33f}
+.FooterLinks h5{font-size:21px}
+/*.CSCTAButton a{margin-left:23%}*/
+.HeaderHeight{Max-Height:130px}
+.ContactCentreMe{margin-left:32%}
+
+.profile_pass-wrap input, .text-wrap.label-above input, .text-wrap.label-below input, .text-wrap.label-inside input, .textarea-wrap.label-above textarea, .textarea-wrap.label-below textarea, .textarea-wrap.label-inside textarea, .list-dropdown-wrap.label-above select, .list-dropdown-wrap.label-below select, #addressInput, .ninja-forms-form-wrap select, selector_input,#wpmem_reg input[type="text"], #wpmem_reg textarea, #wpmem_login input[type="text"], #wpmem_login input[type="password"]{
+ background-color: #eee;border: none;color: #999;font-size: 14px;padding: 16px;}
+
+.gform_wrapper input[type=email], .gform_wrapper input[type=number], .gform_wrapper input[type=password], .gform_wrapper input[type=tel], .gform_wrapper input[type=text], .gform_wrapper input[type=url]  
+{background-color: #eee;border: none;color: #999;font-size: 14px;padding: 16px;}
+
+.gform_wrapper.gf_browser_chrome ul.gform_fields li.gfield select, #radiusSelect select
+{background-color: #eee;border: none;color: #999;font-size: 14px;padding: 7px;}
+
+.limit_height{min-height:initial !important}
+.eighty_percent_row{max-width:100% !important}
+.find-out-more-row{padding-top:10px !important}
+.blurb-row{padding-bottom:10px !important}
+.blurb-row h4{min-height:2.4em}
+.blurb_image img{width:300px !important;max-width:initial}
+
+.et_pb_row {width:initial !important;/*font-size:18px;*/max-width:initial !important;}
+.nav li ul { width: 250px;/*-webkit-transform: translate3d(-90px,0,0);*/}
+.et_pb_blurb_content p:last-of-type {font-size: 18px; line-height:26px;}
+/*.front_page_blurb_row p{min-height:450px;}*/
+.et_pb_slider .et_pb_slide_0 .et_pb_slide_description h2 {font-size: 50px;font-weight:400;margin-top:40px}
+.header_evener_upper h3, .header_evener_upper h4{min-height:2.4em}
+.frontpageblog h2{font-size: 24px !important}
+.et_pb_slide_title{font-weight:400;margin-top:40px}
+
+select#soil-type, select#application, select#tractor-type{background: #eee;width: 70%;border: none;font-size: 16px;color: #999;padding: 10px;}
+
+select#radiusSelect, #wpmem_reg input[type="text"], #wpmem_reg textarea, #wpmem_login input[type="text"], #wpmem_login input[type="password"]
+{
+background: #eee !important;
+border: none !important;
+font-size: 16px !important;
+color: #999 !important;
+padding: 10px !important;}
+
+.gform_wrapper .gform_footer input[type=submit], input[type="select"],input[type="button"],.slp_ui_button, input.buttons{
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: 500;
+    padding: 0.3em 1em;
+    line-height: 1.7em !important;
+    background: transparent;
+    position: relative;
+    border: 2px solid;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    display: block;
+    /*float: right;*/
+    margin: 8px auto 0;
+    cursor: pointer;
+    color: #6cb33f;
+}
+
+.front_page_mask:before {
+    position: absolute;
+    content: '';
+    background: url(http://kellyeng.revolutionweb.com.au/wp-content/uploads/2015/09/video-mask.png) center center;
+    width:100%;
+    height: 100%;
+    z-index: 3;
+}
+    
+/* add padding for the logo and navigation as we have moved them to the edges of the screen */    
+#logo {padding-left: 10px;}  
+#et-top-navigation {padding-right: 10px;}
+
+media only screen and (min-width: 981px){
+#logo {max-height: 90%;}
+.SidebarFormat{margin-left:7%}
+.LocationMargin{margin-left:0%}
+}
+
+@media only screen and (max-width: 1220px){
+#et_mobile_nav_menu{display:block !important; float:right !important}
+#top-menu-nav, #top-menu {display: none;}
+}
+
+@media screen and (max-width: 980px){
+.mobile-only{display:block}
+.desktop-only{display:none}
+}
+
+@media screen and (max-width: 770px){
+et_pb_fullwidth_header .header-content {text-align: center !important;}
+.et_pb_promo_button {position: inherit;margin-left:initial}
+.MobilePositioning{margin-top:40px !important}
+.MobilePositioning p{width 80%; margin: auto}
+.FooterMobilePositioning h3{text-align:center !important}
+.FooterMobilePositioning p{width 80%; margin: auto}
+.ContactCentreMe {margin-left: initial;}
+
+}
+
+@media screen and (max-width: 480px) {
+#cover-section{display:none}
+.et_pb_blurb_content p:last-of-type {/*font-size: 24px;*/ line-height:24px;min-height:initial}
+.et_pb_slider .et_pb_slide_0 .et_pb_slide_description h2 {font-size: 26px !important;}
+.CSCTAButton a{margin-left:32%}
+}
